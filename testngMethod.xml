@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="testNG.demo.TestNG_XML_Demo">
+      
+      <methods>
+      <include name="login"></include>
+      
+      <exclude name="enterData"></exclude>
+      <!-- here it will only execute these login  method and does not execute enterData method from that class. -->
+      <!-- include means it will execute exclude means it will not execute. -->
+      </methods>
+      
+      </class>
+      
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

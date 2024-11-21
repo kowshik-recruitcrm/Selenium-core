@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+  <test thread-count="5" name="Testng_xml_demo">
+    <classes>
+      
+      <class name="testNG.demo.TestNG_XML_Demo"/>
+      <!-- this will execute all test cases in that class -->
+ 
+    </classes>
+  </test> <!-- Testng_xml_demo -->
+</suite> <!-- SampleSuite -->

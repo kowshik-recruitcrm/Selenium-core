@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="userName" value="Admin"></parameter>
+   <parameter name="password" value="admin123"></parameter>
+    <classes>
+
+      <class name="testNG.demo.TestNG_XML_Demo_3"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- he userName and password parameters can be accessed in TestNG_XML_Demo_3 using @Parameters annotation in TestNG. Any other classes added within this same <test> tag will also have access to these parameters. However, if you define these parameters outside of the <test> tag (directly under the <suite> tag), they will be available globally across all <test> tags in the suite. -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  
+  <run>
+  
+  <include name="sanity"></include>
+  </run>
+  </groups>
+    <classes>
+
+      <class name="testNG.demo.TestGroupDemo_2"/>
+      <class name="testNG.demo.TestGroupDemo_3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- here testNG will go to TestGroupDemo_2 and TestGroupDemo_3 class and find sanity group test cases from both classes and execute. we can write groups tag either inside test tag or suite tag. -->
