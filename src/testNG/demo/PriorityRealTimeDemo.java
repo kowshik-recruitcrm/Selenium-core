@@ -60,4 +60,4 @@ public class PriorityRealTimeDemo {
 //without using priority it will execute closebrowser->enterData->login->logout it will only pass 2 test cases.
 
 //with priority it will execute login->enterdata->logout->closebrowser here each test case is depenedent on another so we should use priority.
-//if not it will throw error even we are intializing driver in login test cases os we should execute it first.
+//if not it will throw error even we are intializing driver in login test cases as we should execute it first.

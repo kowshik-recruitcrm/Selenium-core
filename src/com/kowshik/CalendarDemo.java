@@ -10,7 +10,6 @@ public class CalendarDemo {
 
 		// Open google Chrome browser
 
-
 		ChromeDriver driver = new ChromeDriver();
 
 		// Open application

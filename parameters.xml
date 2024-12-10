@@ -13,4 +13,4 @@
 </suite> <!-- Suite -->
 
 
-<!-- he userName and password parameters can be accessed in TestNG_XML_Demo_3 using @Parameters annotation in TestNG. Any other classes added within this same <test> tag will also have access to these parameters. However, if you define these parameters outside of the <test> tag (directly under the <suite> tag), they will be available globally across all <test> tags in the suite. -->
+<!-- The userName and password parameters can be accessed in TestNG_XML_Demo_3 using @Parameters annotation in TestNG. Any other classes added within this same <test> tag will also have access to these parameters. However, if you define these parameters outside of the <test> tag (directly under the <suite> tag), they will be available globally across all <test> tags in the suite. -->

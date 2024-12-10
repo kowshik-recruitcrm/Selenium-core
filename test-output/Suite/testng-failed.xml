@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="testNG.listener.demo.InvokeListenerDemo"/>
-  </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="userName" value="Admin"/>
     <classes>
-      <class name="testNG.listener.demo.OrangeHrmTestCases">
+      <class name="testNG.demo.TestNG_XML_Demo_3">
         <methods>
-          <include name="logout"/>
+          <include name="parametersDemo"/>
         </methods>
-      </class> <!-- testNG.listener.demo.OrangeHrmTestCases -->
+      </class> <!-- testNG.demo.TestNG_XML_Demo_3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

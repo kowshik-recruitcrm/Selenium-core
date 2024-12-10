@@ -46,7 +46,7 @@ public class SoftAssertionDemo {
 		//we need to create obj for SoftAssert class
 		 SoftAssert softAssertObj=new SoftAssert();
 		
-		//but for checking the flow of hardassertion we are changing and manually failing this.
+		//but for checking the flow of softassertion we are changing and manually failing this.
 		 softAssertObj.assertTrue(isAllCheckBoxSelectedStatus);
 		
 		boolean isSearchButtonEnabled= driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")).isEnabled();

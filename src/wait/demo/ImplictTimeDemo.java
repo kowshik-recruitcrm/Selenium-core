@@ -25,7 +25,7 @@ public class ImplictTimeDemo {
         driver.findElement(By.linkText("Create new account")).click();
 
         // Set an implicit wait of 10 seconds
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // once if we mention implicit wait it will be applicable to all the elements in this driver session.
 
         // Enter first name in the "firstname" field
         driver.findElement(By.name("firstname")).sendKeys("kowshik");

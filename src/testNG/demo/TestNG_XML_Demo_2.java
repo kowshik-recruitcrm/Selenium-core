@@ -9,7 +9,7 @@ public class TestNG_XML_Demo_2 {
 
 	@Test
 	public void testing()
-	{//we made driver as static so we are accessing it using class name.
+	{//we made driver as static so we are accessing it using class name and the browser session will be same.
 		
 		
 		TestNG_XML_Demo.driver.findElement(By.xpath("//span[text()='Time']/parent::a")).click();

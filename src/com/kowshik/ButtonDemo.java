@@ -40,6 +40,8 @@ public class ButtonDemo {
 		// click on button
 
 		addElementBtn.click();
+		
+		
 
 	}
 

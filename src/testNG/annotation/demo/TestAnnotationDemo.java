@@ -16,5 +16,5 @@ public class TestAnnotationDemo {
 		System.out.println("Logout successful......!");
 	}
 }
-/*
-we can apply test annotation to any class so all the methods in that class will be considered as test cases.abstract*/
+
+//we can apply test annotation to any class so all the methods in that class will be considered as test cases.
